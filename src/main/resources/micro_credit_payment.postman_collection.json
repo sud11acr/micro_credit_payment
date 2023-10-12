@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "337208f4-b4bc-4ae1-91ba-24733044a5c3",
+		"name": "micro_credit_payment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10392878"
+	},
+	"item": [
+		{
+			"name": "localhost:9082/creditpayment/create/652090a990f7f03fd0266c52",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCredit\":\"652090a990f7f03fd0266c52\",\r\n    \"paymentAmount\": 400,\r\n    \"paymentDate\":\"2023-11-09T10:00:00Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9082/creditpayment/create/652090a990f7f03fd0266c52",
+					"host": [
+						"localhost"
+					],
+					"port": "9082",
+					"path": [
+						"creditpayment",
+						"create",
+						"652090a990f7f03fd0266c52"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
